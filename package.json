@@ -1,0 +1,20 @@
+{
+  "name": "my-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/wdio wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^2.42.0",
+    "webdriverio": "^4.13.2"
+  },
+  "devDependencies": {
+    "wdio-allure-reporter": "^0.8.2",
+    "wdio-cucumber-framework": "^2.2.7",
+    "wdio-selenium-standalone-service": "0.0.10"
+  }
+}
